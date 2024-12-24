@@ -1,0 +1,57 @@
+/* Pencarian */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.search-input {
+  width: 80%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.search-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.search-btn i {
+  font-size: 18px;
+}
+
+/* Border Teks pada Produk */
+.product-title {
+  border-left: 4px solid #4caf50;
+  padding-left: 10px;
+  color: #333;
+}
+
+/* Keranjang Checkout */
+.checkout-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.checkout-btn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.checkout-btn i {
+  font-size: 20px;
+  margin-right: 10px;
+}

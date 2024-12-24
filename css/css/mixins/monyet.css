@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  color: #0073e6;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.product-card p {
+  color: #555;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.discount {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.product-card button {
+  background-color: #ff7d19;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.product-card button:hover {
+  background-color: #e55e11;
+}

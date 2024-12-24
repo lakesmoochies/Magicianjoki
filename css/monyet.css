@@ -1,0 +1,20 @@
+<script>
+  // Ambil elemen input pencarian dan produk
+  const searchInput = document.getElementById('searchInput');
+  const productItems = document.querySelectorAll('.product-item');
+
+  // Event listener untuk menangani input pencarian
+  searchInput.addEventListener('input', function() {
+    const query = searchInput.value.toLowerCase();
+
+    productItems.forEach(item => {
+      const title = item.querySelector('h3').textContent.toLowerCase();
+
+      if (title.includes(query)) {
+        item.style.display = 'block'; // Tampilkan item jika sesuai pencarian
+      } else {
+        item.style.display = 'none'; // Sembunyikan item jika tidak sesuai
+      }
+    });
+  });
+</script>

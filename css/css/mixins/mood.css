@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+  font-family: "Spectral", serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #c95353; /* Dark blue background */
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #3b5998; /* Hover effect color */
+}
+
+/* Hero Section */
+.hero-wrap {
+  background-image: url("images/sippp.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-wrap .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-wrap .text {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.hero-wrap h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-wrap .btn {
+  background-color: #c95353;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.hero-wrap .btn:hover {
+  background-color: #3b5998; /* Hover effect for button */
+}
+
+/* Price List */
+.price-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price-list li {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.price-list a {
+  color: #c95353;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.price-list a:hover {
+  color: #3b5998;
+}
+
+/* Product Item */
+.item {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.item h2 {
+  font-size: 1.5rem;
+  color: #c95353;
+  margin-bottom: 15px;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+.search-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #c95353;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #3b5998; /* Hover effect for button */
+}
+
+/* Footer */
+.wrap {
+  background-color: #333;
+  padding: 20px 0;
+  color: white;
+}
+
+.wrap .social-media a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.wrap .social-media a:hover {
+  color: #3b5998; /* Hover effect for social media icons */
+}
+
+.reg a {
+  color: white;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.reg a:hover {
+  color: #3b5998; /* Hover effect for links */
+}
